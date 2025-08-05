@@ -1,7 +1,14 @@
+/.DS_Store
 /build_local/
-/build_production/
+/cache/
 /node_modules/
 /vendor/
-/source/assets/build/
-.DS_Store
-/.DS_Store
+/.idea/
+/.vscode/
+npm-debug.log
+hot
+
+# Optional ignores
+# /build_staging/
+# /build_production/
+# /source/assets/build/
