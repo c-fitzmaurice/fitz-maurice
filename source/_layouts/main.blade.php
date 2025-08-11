@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}" >
+<html lang="{{ $page->language ?? 'en' }}" class="overscroll-none">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="{{ vite('source/_assets/css/main.css') }}">
         {{-- <script defer type="module" src="{{ vite('source/_assets/js/main.js') }}"></script> --}}
     </head>
-    <body class="text-gray-900 font-sans antialiased leading-tight">
+    <body class="text-gray-900 font-sans antialiased leading-tight overscroll-none">
         <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden" aria-hidden="true">
             <div class="absolute left-[72%] top-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-[-8%] md:translate-y-[-28%] lg:-rotate-25 -rotate-45 md:landscape:top-[10%] md:portrait:top-[25%] lg:translate-x-[-2%]">
                 <x-svg class="w-[200vw] md:w-[120vw] h-auto opacity-5" />
