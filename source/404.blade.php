@@ -1,5 +1,5 @@
 ---
-extends: _layouts.master
+extends: _layouts.main
 section: content
 permalink: 404.html
 ---

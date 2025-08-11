@@ -3,7 +3,20 @@
 @section('title', 'Colin Fitz-Maurice')
 
 @section('body')
-<div class="p-8">
-    <h1 class="text-3xl font-bold">Hello world!</h1>
+<div class="p-4">
+    <x-svg class="h-32 w-32 ml-3" />
+
+    <div class="w-full space-y-4 mt-4">
+        <h1 class="text-lg font-semibold">Colin Fitz-Maurice</h1>
+
+        <h2> Apple <br> Software Engineer</h2>
+
+        <div>
+            <a class="block" target="_blank" href="{{ $page->social->github }}">GitHub</a>
+            <a class="block" target="_blank" href="{{ $page->social->linkedin }}">LinkedIn</a>
+        </div>
+
+        <p id="email">Email</p>
+    </div>
 </div>
 @endsection
