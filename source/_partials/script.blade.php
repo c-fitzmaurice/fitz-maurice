@@ -2,9 +2,9 @@
     const email = document.getElementById("email");
     email.onclick = function() {
         navigator.clipboard.writeText('{{ $page->social->email }}'.split('').reverse().join(''));
-        email.textContent = "copied ✔︎";
+        email.textContent = "Copied ✔︎";
         setTimeout(() => {
-            email.textContent = 'email';
+            email.textContent = 'Email';
         }, 1500);
     }
 </script>
