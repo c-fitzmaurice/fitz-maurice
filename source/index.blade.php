@@ -12,11 +12,12 @@
         <h2> Apple <br> Software Engineer</h2>
 
         <div>
-            <a class="block" target="_blank" href="{{ $page->social->github }}">GitHub</a>
-            <a class="block" target="_blank" href="{{ $page->social->linkedin }}">LinkedIn</a>
+            <a class="inline-block" target="_blank" href="{{ $page->social->github }}">GitHub</a>
+            <br>
+            <a class="inline-block" target="_blank" href="{{ $page->social->linkedin }}">LinkedIn</a>
         </div>
 
-        <p id="email">Email</p>
+        <p id="email" class="inline-block hover:cursor-pointer">Email</p>
     </div>
 </div>
 @endsection
