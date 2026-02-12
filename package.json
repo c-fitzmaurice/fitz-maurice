@@ -3,12 +3,13 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "deploy": "npm run build && git add build_production && git commit -m 'deploy' && git subtree push --prefix build_production origin gh-pages"
     },
     "devDependencies": {
         "@tighten/jigsaw-vite-plugin": "^1.0.1",
         "tailwindcss": "^4.1.0",
-        "vite": "^7.1.9"
+        "vite": "^6.4.1"
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.1.8"
