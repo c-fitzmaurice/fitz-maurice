@@ -15,7 +15,7 @@
     </head>
     <body class="text-gray-900 font-sans antialiased leading-tight overscroll-none">
         <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden" aria-hidden="true">
-            <div class="absolute left-[72%] top-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-[-8%] md:translate-y-[-28%] lg:-rotate-25 -rotate-45 md:landscape:top-[10%] md:portrait:top-[25%] lg:translate-x-[-2%] transition-all duration-700 ease-in-out transform-gpu [will-change:left,top,transform] motion-reduce:transition-none">
+            <div class="absolute left-[72%] top-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-[-8%] md:translate-y-[-28%] lg:-rotate-25 -rotate-45 md:landscape:top-[10%] md:portrait:top-[25%] lg:translate-x-[-2%] transition-all duration-700 ease-in-out transform-gpu will-change-[left,top,transform] motion-reduce:transition-none">
                 <x-svg class="w-[200vw] md:w-[120vw] h-auto opacity-5" />
             </div>
         </div>
