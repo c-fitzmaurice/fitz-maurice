@@ -7,11 +7,11 @@
         "deploy": "npm run build && git add build_production && git commit -m 'deploy' && git subtree push --prefix build_production origin gh-pages"
     },
     "devDependencies": {
-        "@tighten/jigsaw-vite-plugin": "^1.0.1",
+        "@tighten/jigsaw-vite-plugin": "^2.0.0",
         "tailwindcss": "^4.1.0",
-        "vite": "^6.4.1"
+        "vite": "^8.0.16"
     },
     "dependencies": {
-        "@tailwindcss/vite": "^4.1.8"
+        "@tailwindcss/vite": "^4.3.1"
     }
 }
