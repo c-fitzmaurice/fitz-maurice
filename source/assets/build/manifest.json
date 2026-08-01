@@ -1,6 +1,10 @@
 {
   "source/_assets/css/main.css": {
-    "file": "assets/main-BtQJZBmB.css",
+    "file": "assets/main-Cum9XMHM.css",
+    "name": "main",
+    "names": [
+      "main.css"
+    ],
     "src": "source/_assets/css/main.css",
     "isEntry": true
   }
